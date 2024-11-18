@@ -7,7 +7,7 @@ export default function ServiceCard({serviceObj}){
             <div className="service-info-container">
                 <h3>{serviceObj.name}</h3>
                 <p>
-                    <big style={{textAlign: 'center'}}>{serviceObj.description}</big>
+                    <big>{serviceObj.description}</big>
                 </p>
             </div>
         </div>

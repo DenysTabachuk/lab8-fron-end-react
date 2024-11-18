@@ -57,7 +57,7 @@ export default function WhyChooseUsBlock(){
                     <div className="statistics" key={index}>
                         <img src={stat.icon} alt={stat.name} />
                         <p className="stat-value"><big>{stat.value}</big></p>
-                        <p className="stat-name">{stat.name}</p>
+                        <p className="stat-name"  style={{textAlign: 'center'}}>{stat.name}</p>
                     </div>
                     ))}
              </div>
