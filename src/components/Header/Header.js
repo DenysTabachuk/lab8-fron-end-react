@@ -15,7 +15,7 @@ export default function Header() {
                 <h1>Locksmith</h1>
             </div>
 
-            <img id="icon-menu" src="/icons/icon-menu.png" alt="" onClick={toggleMenu} />
+            <img id="icon-menu" src="icons/icon-menu.png" alt="" onClick={toggleMenu} />
 
            
             <navbar className={ isMenuOpen ? "open" : "closed"}>
