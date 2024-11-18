@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.241e86cf.css",
+    "main.js": "/static/js/main.b3d13a44.js",
+    "static/media/door-lock-and-key.jpg": "/static/media/door-lock-and-key.f0895a79021a2d768aab.jpg",
+    "static/media/cable-combination-lock.jpg": "/static/media/cable-combination-lock.d80bf349da5de882d363.jpg",
+    "static/media/camera.jpg": "/static/media/camera.1f74cc2f09f7288b8ce1.jpg",
+    "static/media/smart-door-lock.jpg": "/static/media/smart-door-lock.862df9b443d1bda799a9.jpg",
+    "static/media/portable-safe.webp": "/static/media/portable-safe.cc1235e9f82424800cc2.webp",
+    "index.html": "/index.html",
+    "main.241e86cf.css.map": "/static/css/main.241e86cf.css.map",
+    "main.b3d13a44.js.map": "/static/js/main.b3d13a44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.241e86cf.css",
+    "static/js/main.b3d13a44.js"
+  ]
+}
