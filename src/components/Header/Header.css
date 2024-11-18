@@ -20,7 +20,6 @@ header{
   display: none;
 }
 
-
 navbar ul {
   list-style-type: none;
   margin: 0;
@@ -28,7 +27,6 @@ navbar ul {
   display: flex;
   align-items: center;
 }
-
 
 li a {
   padding: 14px 16px;
@@ -42,7 +40,6 @@ li a {
   padding: 15px;
   color: white;
 }
-
 
 @media (max-width: 991px) {
 
@@ -58,7 +55,6 @@ li a {
   navbar li{
     margin-top: 10px;
   }
-
 
   navbar {
     border: 3px solid #000000;

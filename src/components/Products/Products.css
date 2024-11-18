@@ -6,7 +6,6 @@
     margin-top: 50px;
     display: flex;
     justify-content: center;
-    /* align-items: flex-start; */
     gap: 20px;
     flex-wrap: wrap;
 }
@@ -51,12 +50,6 @@
     justify-content: space-between;
 }
 
-
-
-
-
-
-
 #product-slider{
     display: none;
     align-items: center;
@@ -64,9 +57,6 @@
    
 }
 
-
-
-  /* Стилі для маленьких екранів (ширина екрану менше 768px) */
 @media (max-width: 576px) {
     #products{
         margin: 75px 0 100px 0;
@@ -90,14 +80,11 @@
     }
 }
 
-
 @media (max-width: 767px) {
     .product{
         width: 95%;
     }
 }
-
-
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .product{

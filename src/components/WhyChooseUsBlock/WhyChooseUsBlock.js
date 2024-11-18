@@ -20,9 +20,9 @@ export default function WhyChooseUsBlock(){
         <div id="why-choose-us-wrapper"> 
 
              <div id="why-choose-us-block">
-                <img id = "img-1" className="choose-us-image" src="/images/security-camera.jpg" alt="" />
-                <img id = "img-2" className="choose-us-image" src="/images/door-lock.jpg" alt="" />
-                <img id = "img-3" className="choose-us-image" src="/images/interactive-td63.jpg" alt="" />
+                <img id = "img-1" className="choose-us-image" src="images/security-camera.jpg" alt="" />
+                <img id = "img-2" className="choose-us-image" src="images/door-lock.jpg" alt="" />
+                <img id = "img-3" className="choose-us-image" src="images/interactive-td63.jpg" alt="" />
 
                 <div id="why-choose-us-text-info">
                     <h3 className="yellow-spaced-header">WHY CHOOSE US</h3>

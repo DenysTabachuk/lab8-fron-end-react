@@ -17,7 +17,7 @@
 }
 
 #over-banner-message{
-  background-color: rgba(0, 0, 0, 0.8); /* Чорний фон з 80% непрозорістю */
+  background-color: rgba(0, 0, 0, 0.8); 
   color: white;
   position: absolute;
   top: calc(25% - 50px);
@@ -39,7 +39,6 @@
   margin: 15px;
   color: white;
 }
-
   
 /* ≥992px - large */
 @media (max-width: 991px) {
@@ -47,8 +46,6 @@
   #carousel button, #banner-place-holder{
     display: none;
   }
-
-
 
 }
 

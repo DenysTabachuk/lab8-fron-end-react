@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./ImageSlider.css";
 
 
-
 export default function ImageSlider(){
 
     console.log("sex" + process.env.PUBLIC_URL);
