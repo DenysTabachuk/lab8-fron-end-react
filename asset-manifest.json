@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lab8-fron-end-react/static/css/main.7d8185fd.css",
-    "main.js": "/lab8-fron-end-react/static/js/main.e5770c7e.js",
+    "main.js": "/lab8-fron-end-react/static/js/main.e8540ec2.js",
     "static/media/door-lock-and-key.jpg": "/lab8-fron-end-react/static/media/door-lock-and-key.f0895a79021a2d768aab.jpg",
     "static/media/cable-combination-lock.jpg": "/lab8-fron-end-react/static/media/cable-combination-lock.d80bf349da5de882d363.jpg",
     "static/media/camera.jpg": "/lab8-fron-end-react/static/media/camera.1f74cc2f09f7288b8ce1.jpg",
@@ -9,10 +9,10 @@
     "static/media/portable-safe.webp": "/lab8-fron-end-react/static/media/portable-safe.cc1235e9f82424800cc2.webp",
     "index.html": "/lab8-fron-end-react/index.html",
     "main.7d8185fd.css.map": "/lab8-fron-end-react/static/css/main.7d8185fd.css.map",
-    "main.e5770c7e.js.map": "/lab8-fron-end-react/static/js/main.e5770c7e.js.map"
+    "main.e8540ec2.js.map": "/lab8-fron-end-react/static/js/main.e8540ec2.js.map"
   },
   "entrypoints": [
     "static/css/main.7d8185fd.css",
-    "static/js/main.e5770c7e.js"
+    "static/js/main.e8540ec2.js"
   ]
 }
