@@ -1,0 +1,60 @@
+#carousel{
+  position: relative;
+  z-index: 1;
+
+}
+
+#carousel img {
+  width: 100%;
+  max-height: 630px;
+
+}
+
+#over-banner-message h3 {
+  color:  #f5cd3e;
+  letter-spacing: 3px;
+  font-size: 1rem;
+}
+
+#over-banner-message{
+  background-color: rgba(0, 0, 0, 0.8); /* Чорний фон з 80% непрозорістю */
+  color: white;
+  position: absolute;
+  top: calc(25% - 50px);
+  left: calc(30%);
+  text-align: center;
+  width: 40%;
+  padding: 40px 0px 40px 0px;
+  z-index: 2;
+}
+
+#over-banner-message p{
+  font-size: 1.7rem;
+  letter-spacing: 3px;
+}
+
+#over-banner-message button{
+  background-color: #f5cd3e;
+  padding: 10px;
+  margin: 15px;
+  color: white;
+}
+
+  
+/* ≥992px - large */
+@media (max-width: 991px) {
+
+  #carousel button, #banner-place-holder{
+    display: none;
+  }
+
+
+
+}
+
+@media (max-width: 1199px) {
+  #over-banner-message{
+    position: static;
+    width: 100%;
+  }
+}

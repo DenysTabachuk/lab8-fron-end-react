@@ -1,0 +1,131 @@
+/* better make bigger container */
+#services-overview{ 
+    margin-top: 100px
+}
+
+#service-card-container{
+    margin-left: 40px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap; 
+}
+
+.service-card{
+    width: 30%;  
+    margin-top: 15px;
+
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+.service-icon-container{
+    border: 2px solid #f4c542; /* Колір ромба */
+    border-radius: 15px;
+    transform: rotate(45deg); /* Поворот на 45 градусів */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    width: 130px;
+    height: 130px;
+
+}
+
+.service-icon-container img{
+    width: 60%;
+    transform: rotate(-45deg);
+}
+
+
+.service-info-container{
+    width: 50%;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#service-card-slider{
+    margin: auto;
+}
+
+#service-card-slider-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+@media (max-width: 767px) {
+    #services-overview{ 
+        margin: 50px 0 0 0;
+    }
+    
+    #service-card-container{
+       display: none;
+     
+    }
+
+    .service-card{
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+    }
+
+    .service-icon-container{
+        margin: 15px 0 15px 0;
+     
+    }
+  }
+
+@media (min-width: 768px){ 
+    #service-card-slider{
+        display: none;
+    }
+}
+
+
+@media  (max-width: 1023px) {
+    
+
+    .service-card{
+        width: 100%;
+    }
+
+    .service-info-container{
+        margin: 0 0 0 30px;
+        width: 70%;
+    }
+
+  
+}
+
+@media (min-width: 1024px) and (max-width: 1400px)  {
+    
+
+    .service-card{
+        width: 46%;
+    }
+
+    .service-info-container{
+        margin: 0 0 0 30px;
+        width: 50%;
+    }
+
+  
+} 
