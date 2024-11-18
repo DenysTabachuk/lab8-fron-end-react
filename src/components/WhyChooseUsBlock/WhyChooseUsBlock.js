@@ -38,11 +38,11 @@ export default function WhyChooseUsBlock(){
                         that dedication, experience, and a customer-first approach can make.
                     </p>
                     <ul>
-                    <li><img className = "check-icon" src="/icons/check.png" />Safes & Safe Deposit Boxes</li>
-                    <li><img className = "check-icon" src="/icons/check.png" />Car Locksmith & Car Alarm Systems</li>
-                    <li><img className = "check-icon" src="/icons/check.png" />Residential Locksmith & Commercial Locksmith</li>
-                    <li><img className = "check-icon" src="/icons/check.png" />We Are Awesome People to Meet</li>
-                    <li><img className = "check-icon" src="/icons/check.png" />Digital & Electronic Lock</li>
+                    <li><img className = "check-icon" src="icons/check.png" />Safes & Safe Deposit Boxes</li>
+                    <li><img className = "check-icon" src="icons/check.png" />Car Locksmith & Car Alarm Systems</li>
+                    <li><img className = "check-icon" src="icons/check.png" />Residential Locksmith & Commercial Locksmith</li>
+                    <li><img className = "check-icon" src="icons/check.png" />We Are Awesome People to Meet</li>
+                    <li><img className = "check-icon" src="icons/check.png" />Digital & Electronic Lock</li>
                     </ul>
 
                     <div id="why-choose-us-button-container" >

@@ -12,7 +12,7 @@ export default function Product({ productObj }) {
                         <img
                             key={index} 
                             className="star-icon" 
-                            src="/icons/star.png" 
+                            src="icons/star.png" 
                             alt="star" 
                         />
                     ))}
