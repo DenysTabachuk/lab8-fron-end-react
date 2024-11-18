@@ -1,7 +1,12 @@
 import { useState } from "react";
-import "./ImageSlider.css"
+import "./ImageSlider.css";
+
+
 
 export default function ImageSlider(){
+
+    console.log("sex" + process.env.PUBLIC_URL);
+
 
     const images = [
         "images/banner1.jpeg",
