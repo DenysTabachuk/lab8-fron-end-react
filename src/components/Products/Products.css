@@ -1,0 +1,107 @@
+#products{
+    margin: 75px 10% 100px 10%;
+}
+
+#product-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-start; */
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product{
+    width: 17%;
+}
+
+.product-image{
+    width: 100%;
+    border: 2px solid rgb(173, 172, 172);
+}
+
+.product .description {
+    color: gray;
+    margin: 0;
+    text-align: justify;
+}
+
+#view-all-button{
+    height: 100%;
+    padding: 15px 25px 15px 25px;
+    background: white;
+    border: 2px solid #f5cd3e; ;
+    letter-spacing: 1px;
+}
+
+
+#products-header-and-button-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.star-icon{
+    width: 15px;
+}
+
+.price-and-stars-container{
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+#product-slider{
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+
+
+  /* Стилі для маленьких екранів (ширина екрану менше 768px) */
+@media (max-width: 576px) {
+    #products{
+        margin: 75px 0 100px 0;
+    }
+
+    #product-slider{
+        display: flex;
+        margin-top: 50px;
+    }
+
+    #product-container{
+        display: none;
+    }
+
+    .product{
+        width: 100%;
+    }
+
+    #products-header-and-button-container{
+        margin: 0 5% 0 5%;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .product{
+        width: 95%;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .product{
+        width: 44%;
+    }
+}
+

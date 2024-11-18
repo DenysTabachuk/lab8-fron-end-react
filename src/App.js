@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header/Header.js';
+import ImageSlider from './components/ImageSlider/ImageSlider.js';
+import GetQuoteBlock from './components/GetQuoteBlock/GetQuoteBlock.js';
+import ServicesOverview from './components/ServicesOverview/ServicesOverview.js';
+import WhyChooseUsBlock from './components/WhyChooseUsBlock/WhyChooseUsBlock.js';
+import Products from './components/Products/Products.js';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header></Header>
+      <ImageSlider></ImageSlider>
+      <GetQuoteBlock></GetQuoteBlock>
+      <ServicesOverview></ServicesOverview>
+      <WhyChooseUsBlock></WhyChooseUsBlock>
+      <Products></Products>
+    </>
   );
 }
 

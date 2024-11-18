@@ -1,0 +1,146 @@
+#why-choose-us-wrapper{
+    background-image: linear-gradient(rgba(246,246,249,255) 0%, rgba(246,246,249,255) 50%, 
+    rgba(26,39,56,255) 50%, rgba(26,39,56,255) 100%);
+    padding: 100px 0 100px 0;
+
+}
+
+
+#why-choose-us-block{
+   background-color: white;
+   width: 75%;
+   margin: auto;
+
+   display: grid;
+   gap: 20px;
+   padding: 20px;
+
+   grid-template-areas: 
+   "A B D D"
+   "C B D D";
+}
+
+#img-1{
+    grid-area: A;
+}
+
+#img-2{
+    grid-area: C;
+}
+
+#img-3{
+    grid-area: B;
+}
+
+#why-choose-us-text-info{
+    grid-area: D;
+}
+
+img {
+    max-width: 100%;
+ 
+}
+
+.check-icon{
+    height: 30px;
+}
+
+#why-choose-us-block ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 0 45px 0;
+}
+
+#why-choose-us-block ul li {
+    display: flex;
+    align-items: center;
+}
+
+#statistics-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.statistics{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 15%;
+}
+
+
+.statistics img {
+    width: 25%;
+} 
+
+.stat-value{
+    color: white;
+    font-size: 2rem;
+    margin: 5px;
+}
+
+.stat-name{
+    color: gray;
+    margin: 0;
+}
+
+
+
+#statistics-slider{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media (max-width: 576px) {
+    #why-choose-us-block{
+        display: block;
+    }
+
+    .choose-us-image, #statistics-container {
+        display: none;
+    }
+
+    #why-choose-us-button-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .statistics{
+        width: 100%;
+    }
+}
+
+@media (min-width: 577px){
+    #statistics-slider{
+        display: none;
+    }
+}
+
+  
+@media (min-width: 576px) and (max-width: 1400px){
+    #statistics-slider{
+        #why-choose-us-block{
+            background-color: white;
+            width: 75%;
+            margin: auto;
+         
+            display: grid;
+            gap: 20px;
+            padding: 20px;
+         
+            grid-template-areas: 
+            "A D D"
+            "B D D";
+         }
+    }
+
+    #img-3{
+        display: none;
+    }
+
+}
